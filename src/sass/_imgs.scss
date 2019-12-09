@@ -1,0 +1,59 @@
+.imgs {
+	margin-bottom: 24px;
+	&_block {
+		padding: 30px 0 43px 72px;
+		max-width: 1190px;
+    	width: 100%;
+	}
+	&_title {
+		font-weight: bold;
+		font-size: 18px;
+		padding-bottom: 34px;
+	}
+
+	&_form {
+		display: flex;
+   		padding: 30px 30px 30px 330px;
+   		border: 1px dotted #C1C2C6;
+   		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	}
+
+	&_box {
+   		display: flex;
+    	align-items: center;
+    	& img {
+    		width: 70px;
+    		height: 60px;
+    	}
+   	}
+
+	&_complex {
+
+		&-num {
+			padding-left: 20px;
+		}
+	}
+}
+
+.description {
+	&_title {
+		margin-top: 45px;
+		padding-bottom: 15px;
+		display: flex;
+		justify-content: space-between;
+		&-left{
+			font-weight: bold;
+			font-size: 18px;
+		}
+		&-right {
+			color: #C1C2C6;
+		}
+	}
+	&_complex {
+		&-num {
+			width: 1117px;
+			height: 171px;
+			box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+		}
+	}
+}

@@ -1,0 +1,32 @@
+.header {
+	width: 100%;
+	max-width: 1687px;
+	background: #fff;
+	&_block {
+		height: 85px;
+		display: flex;
+		align-items: center;
+	}
+	&_menu {
+		display: flex;
+	}
+	&_item {
+		list-style-type: none;
+		padding-right: 27px;
+		&-link {
+		font-size: 14px;
+	}
+	}
+	&_info {
+		margin-left: 304px;
+		display: flex;
+		align-items: center;
+		&-icon {
+			padding: 0 12px 0 55px;
+		}
+		&-name {
+			font-size: 14px;
+		}
+	}
+}
+

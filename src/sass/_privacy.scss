@@ -1,0 +1,158 @@
+.privacy {
+	&_block {
+		padding: 30px 0 43px 72px;
+		max-width: 1190px;
+    	width: 100%;
+	}
+	&_title {
+		font-weight: bold;
+		font-size: 18px;
+		padding-bottom: 34px;
+	}
+}
+
+.realtoravailability {
+	display: flex;
+    align-items: center;
+	&_radio {
+		display: flex;
+		align-items: center;
+
+		&-text {
+			margin-right: 49px;
+			display: flex;
+			align-items: center;
+			& p {
+				padding: 0 18px;
+			}
+		}
+		&-button {
+			display: flex;
+			& div {
+				& input {
+					display: none;
+				}
+				& input:checked + label {
+					color: #fff;
+	    			background: #FF6F00;
+					box-shadow: inset 0px 2.00757px 1.00378px rgba(0, 0, 0, 0.07);
+				}
+				& label {
+					color: #6E6E82;
+					display: block;
+					text-align: center;
+	    			padding: 7px 27px;
+	    			border: 1px solid #6E6E82;
+	    			cursor: pointer;
+				}
+			}
+			& div:first-child label {
+				margin-left: 0;
+	    		border-top-left-radius: 4px;
+	    		border-bottom-left-radius: 4px;
+			}
+			& div:last-child label {
+				margin-left: 0;
+	    		border-top-right-radius: 4px;
+	    		border-bottom-right-radius: 4px;
+			}
+		}
+	}
+}
+
+.viewobject {
+	display: flex;
+    align-items: center;
+	&_radio {
+		display: flex;
+		align-items: center;
+
+		&-text {
+			margin-right: 35px;
+			display: flex;
+			& p {
+				padding: 0 18px;
+			}
+		}
+		&-button {
+			display: flex;
+			& div {
+				& input {
+					display: none;
+				}
+				& input:checked + label {
+					color: #fff;
+	    			background: #FF6F00;
+					box-shadow: inset 0px 2.00757px 1.00378px rgba(0, 0, 0, 0.07);
+				}
+				& label {
+					color: #6E6E82;
+					display: block;
+					text-align: center;
+	    			padding: 7px 27px;
+	    			border: 1px solid #6E6E82;
+	    			cursor: pointer;
+				}
+			}
+			& div:first-child label {
+				margin-left: 0;
+	    		border-top-left-radius: 4px;
+	    		border-bottom-left-radius: 4px;
+			}
+			& div:last-child label {
+				margin-left: 0;
+	    		border-top-right-radius: 4px;
+	    		border-bottom-right-radius: 4px;
+			}
+		}
+	}
+}
+
+.propertybylink {
+	display: flex;
+    align-items: center;
+	&_radio {
+		display: flex;
+		align-items: center;
+
+		&-text {
+			    margin-right: 43px;
+			display: flex;
+			align-items: center;
+			& p {
+				padding: 0 18px;
+			}
+		}
+		&-button {
+			display: flex;
+			& div {
+				& input {
+					display: none;
+				}
+				& input:checked + label {
+					color: #fff;
+	    			background: #FF6F00;
+					box-shadow: inset 0px 2.00757px 1.00378px rgba(0, 0, 0, 0.07);
+				}
+				& label {
+					color: #6E6E82;
+					display: block;
+					text-align: center;
+	    			padding: 7px 27px;
+	    			border: 1px solid #6E6E82;
+	    			cursor: pointer;
+				}
+			}
+			& div:first-child label {
+				margin-left: 0;
+	    		border-top-left-radius: 4px;
+	    		border-bottom-left-radius: 4px;
+			}
+			& div:last-child label {
+				margin-left: 0;
+	    		border-top-right-radius: 4px;
+	    		border-bottom-right-radius: 4px;
+			}
+		}
+	}
+}

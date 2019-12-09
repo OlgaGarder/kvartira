@@ -1,0 +1,151 @@
+.footer {
+    background: #2f3241;
+    &_blocks {
+        padding: 47px 0 47px 72px;
+        background: #2F3241;
+        color: #FFFFFF;
+        display: flex;
+        &-left {
+            display: flex;
+            width: 100%;
+            max-width: 604px;
+            justify-content: space-between;
+        }
+        &-right {
+            margin-left: 32px;
+        }
+    }
+}
+
+.portal {
+    width: 100%;
+    max-width: 160px;
+    &_title {
+        color: #FF6F00;
+        padding-bottom:20px;
+        font-size: 14px;
+    }
+    &_nav {
+        padding-left: 0;
+        &-item {
+            list-style: none;
+            padding-bottom: 25px;
+        }
+        &-link {
+            color: #FFFFFF;
+            font-size: 14px;
+            line-height: 120%;
+        }
+    }
+}
+
+.service {
+    width: 100%;
+    max-width: 160px;
+    &_title {
+        color: #FF6F00;
+        padding-bottom:20px;
+        font-size: 14px;
+    }
+    &_nav {
+        padding-left: 0;
+        &-item {
+            list-style: none;
+            padding-bottom: 25px;
+        }
+        &-link {
+            color: #FFFFFF;
+            font-size: 14px;
+            line-height: 120%;
+        }
+    }
+}
+
+.documentation {
+    width: 100%;
+    max-width: 160px;
+    &_title {
+        color: #FF6F00;
+        padding-bottom: 20px;
+        font-size: 14px;
+    }
+    &_nav {
+        padding-left: 0;
+        &-item {
+            list-style: none;
+        }
+        &-link {
+            color: #FFFFFF;
+            font-size: 14px;
+            line-height: 120%;
+        }
+    }
+}
+
+.download {
+    display: flex;
+    margin-bottom: 32px;
+    &_title {
+        color: #FF6F00;
+        font-size: 14px;
+        padding-right: 23px;
+    }
+    &_google {
+        & a {
+            border: 1px solid #FF6F00;
+            border-radius: 2px;
+            padding: 5px 7px;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            & div {
+               line-height: 0; 
+               font-size: 14px;
+            }
+        }
+    }
+
+    &_app {
+        & a {
+            margin-left: 10px;
+            border: 1px solid #FF6F00;
+            border-radius: 2px;
+            padding: 5px 7px;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            & div {
+               line-height: 0; 
+               font-size: 14px;
+            }
+        }
+    }
+}
+
+.paymentservices {
+    align-items: center;
+    display: flex;
+    margin-bottom: 32px;
+    &_title {
+        color: #FF6F00;
+        font-size: 14px;
+        padding-right: 23px;
+    }
+    & a {
+        line-height: 0;
+        padding-right: 8px;
+    }
+}
+
+.companyinformation {
+    display: flex;
+    & a {
+        padding: 0 15px;
+    }
+    &_text {
+        font-size: 14px;
+        color: rgba(255, 255, 255,.5);
+        width: 100%;
+        max-width: 470px;
+    }
+}

@@ -1,0 +1,336 @@
+.object {
+	margin-bottom: 24px;
+	&_title {
+		padding: 30px 0 0 72px;
+		font-weight: bold;
+		font-size: 18px;
+	}
+	&_subtext {
+		display: flex;
+		justify-content: space-between;
+		max-width: 310px;
+		margin-left: 333px;
+		& p {
+			font-size: 14px;
+			color: #6E6E82;
+			margin: 27px 0 0 0;
+		}
+	}
+
+
+	&_square {
+		padding-left: 72px;
+		margin-right: 188px;
+		&-num {
+			width: 130px;
+			padding: 10px 0 8px 15px;
+			border: 1px solid #DCDCE7;
+			margin-bottom: 24px;
+		}
+	}
+
+	&_floor {
+		padding-left: 72px;
+		margin-right: 220px;
+		&-num {
+			width: 130px;
+			padding: 10px 0 8px 15px;
+			border: 1px solid #DCDCE7;
+		}
+	}
+
+}
+
+.rooms_radio {
+	padding-left: 72px;
+	padding-top: 24px;
+	display: flex;
+	align-items: center;
+
+	&-text {
+		margin-right: 113px;
+	}
+	&-button {
+		display: flex;
+		& div {
+			& input {
+				display: none;
+			}
+			& input:checked + label {
+				color: #fff;
+    			background: #FF6F00;
+				box-shadow: inset 0px 2.00757px 1.00378px rgba(0, 0, 0, 0.07);
+			}
+			& label {
+				color: #6E6E82;
+				display: block;
+				text-align: center;
+    			padding: 7px 27px;
+    			border: 1px solid #6E6E82;
+    			cursor: pointer;
+			}
+		}
+		& div:first-child label {
+			margin-left: 0;
+    		border-top-left-radius: 4px;
+    		border-bottom-left-radius: 4px;
+		}
+		& div:last-child label {
+			margin-left: 0;
+    		border-top-right-radius: 4px;
+    		border-bottom-right-radius: 4px;
+		}
+	}
+}
+
+.repairs_radio {
+	padding-left: 72px;
+	padding-top: 24px;
+	display: flex;
+	align-items: center;
+
+	&-text {
+		margin-right: 206px;
+	}
+	&-button {
+		display: flex;
+		& div {
+			& input {
+				display: none;
+			}
+			& input:checked + label {
+				color: #fff;
+    			background: #FF6F00;
+				box-shadow: inset 0px 2.00757px 1.00378px rgba(0, 0, 0, 0.07);
+			}
+			& label {
+				color: #6E6E82;
+				display: block;
+				text-align: center;
+    			padding: 7px 27px;
+    			border: 1px solid #6E6E82;
+    			cursor: pointer;
+			}
+		}
+		& div:first-child label {
+			margin-left: 0;
+    		border-top-left-radius: 4px;
+    		border-bottom-left-radius: 4px;
+		}
+		& div:last-child label {
+			margin-left: 0;
+    		border-top-right-radius: 4px;
+    		border-bottom-right-radius: 4px;
+		}
+	}
+}
+.separatebathroom_radio {
+	padding-left: 72px;
+	padding-top: 24px;
+	display: flex;
+	align-items: center;
+
+	&-text {
+		margin-right: 105px;
+	}
+	&-button {
+		display: flex;
+		& div {
+			& input {
+				display: none;
+			}
+			& input:checked + label {
+				color: #fff;
+    			background: #FF6F00;
+				box-shadow: inset 0px 2.00757px 1.00378px rgba(0, 0, 0, 0.07);
+			}
+			& label {
+				color: #6E6E82;
+				display: block;
+				text-align: center;
+    			padding: 7px 27px;
+    			border: 1px solid #6E6E82;
+    			cursor: pointer;
+			}
+		}
+		& div:first-child label {
+			margin-left: 0;
+    		border-top-left-radius: 4px;
+    		border-bottom-left-radius: 4px;
+		}
+		& div:last-child label {
+			margin-left: 0;
+    		border-top-right-radius: 4px;
+    		border-bottom-right-radius: 4px;
+		}
+	}
+}
+
+.сombinedbathroom_radio {
+	padding-left: 72px;
+	padding-top: 24px;
+	display: flex;
+	align-items: center;
+
+	&-text {
+		margin-right: 87px;
+	}
+	&-button {
+		display: flex;
+		& div {
+			& input {
+				display: none;
+			}
+			& input:checked + label {
+				color: #fff;
+    			background: #FF6F00;
+				box-shadow: inset 0px 2.00757px 1.00378px rgba(0, 0, 0, 0.07);
+			}
+			& label {
+				color: #6E6E82;
+				display: block;
+				text-align: center;
+    			padding: 7px 27px;
+    			border: 1px solid #6E6E82;
+    			cursor: pointer;
+			}
+		}
+		& div:first-child label {
+			margin-left: 0;
+    		border-top-left-radius: 4px;
+    		border-bottom-left-radius: 4px;
+		}
+		& div:last-child label {
+			margin-left: 0;
+    		border-top-right-radius: 4px;
+    		border-bottom-right-radius: 4px;
+		}
+	}
+}
+
+.loggia_radio {
+	padding-left: 72px;
+	padding-top: 24px;
+	display: flex;
+	align-items: center;
+
+	&-text {
+		margin-right: 202px;
+	}
+	&-button {
+		display: flex;
+		& div {
+			& input {
+				display: none;
+			}
+			& input:checked + label {
+				color: #fff;
+    			background: #FF6F00;
+				box-shadow: inset 0px 2.00757px 1.00378px rgba(0, 0, 0, 0.07);
+			}
+			& label {
+				color: #6E6E82;
+				display: block;
+				text-align: center;
+    			padding: 7px 27px;
+    			border: 1px solid #6E6E82;
+    			cursor: pointer;
+			}
+		}
+		& div:first-child label {
+			margin-left: 0;
+    		border-top-left-radius: 4px;
+    		border-bottom-left-radius: 4px;
+		}
+		& div:last-child label {
+			margin-left: 0;
+    		border-top-right-radius: 4px;
+    		border-bottom-right-radius: 4px;
+		}
+	}
+}
+
+.balcony_radio {
+	padding-left: 72px;
+	padding-top: 24px;
+	display: flex;
+	align-items: center;
+
+	&-text {
+		margin-right: 207px;
+	}
+	&-button {
+		display: flex;
+		& div {
+			& input {
+				display: none;
+			}
+			& input:checked + label {
+				color: #fff;
+    			background: #FF6F00;
+				box-shadow: inset 0px 2.00757px 1.00378px rgba(0, 0, 0, 0.07);
+			}
+			& label {
+				color: #6E6E82;
+				display: block;
+				text-align: center;
+    			padding: 7px 27px;
+    			border: 1px solid #6E6E82;
+    			cursor: pointer;
+			}
+		}
+		& div:first-child label {
+			margin-left: 0;
+    		border-top-left-radius: 4px;
+    		border-bottom-left-radius: 4px;
+		}
+		& div:last-child label {
+			margin-left: 0;
+    		border-top-right-radius: 4px;
+    		border-bottom-right-radius: 4px;
+		}
+	}
+}
+
+.window_radio {
+	padding-left: 72px;
+	padding-top: 24px;
+	padding-bottom: 47px;
+	display: flex;
+	align-items: center;
+
+	&-text {
+		margin-right: 157px;
+	}
+	&-button {
+		display: flex;
+		& div {
+			& input {
+				display: none;
+			}
+			& input:checked + label {
+				color: #fff;
+    			background: #FF6F00;
+				box-shadow: inset 0px 2.00757px 1.00378px rgba(0, 0, 0, 0.07);
+			}
+			& label {
+				color: #6E6E82;
+				display: block;
+				text-align: center;
+    			padding: 7px 27px;
+    			border: 1px solid #6E6E82;
+    			cursor: pointer;
+			}
+		}
+		& div:first-child label {
+			margin-left: 0;
+    		border-top-left-radius: 4px;
+    		border-bottom-left-radius: 4px;
+		}
+		& div:last-child label {
+			margin-left: 0;
+    		border-top-right-radius: 4px;
+    		border-bottom-right-radius: 4px;
+		}
+	}
+}
